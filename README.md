@@ -9,3 +9,7 @@ A Python tool to classify phishing emails using machine learning (SVM).
 ## How to Use  
 1. Install dependencies: `pip install pandas scikit-learn nltk`.  
 2. Run: `python phishing_detector.py`.  
+
+## Dataset Sources  
+- Phishing examples inspired by real scams reported by [Communications Authority of Kenya](https://www.ca.go.ke).  
+- Legitimate emails simulated for balance.  
