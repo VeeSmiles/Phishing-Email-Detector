@@ -1,4 +1,5 @@
 import pandas as pd
+df = pd.read_csv("kenyan_phishing_samples.csv")  # Load dataset
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
 import tkinter as tk
